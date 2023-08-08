@@ -1,0 +1,35 @@
+.white {
+    background-color: white;
+    position: relative;
+}
+
+.pink, .blue, .green {
+    position: absolute;
+}
+.pink {
+  filter: hue-rotate(20deg); 
+  top: 80px;
+  left: 80px;
+  background: rgb(239, 71, 111);
+  z-index: 1;
+}
+.blue {
+    
+    top: 120px;
+    left: 120px;
+    background: rgb(17, 138, 178);
+    z-index: 3;
+  }
+  .green {
+    
+    top: 160px;
+    left: 160px; 
+    background: rgb(6, 214, 160);
+    z-index: 2;
+  }
+
+  wrap {
+    height: 100px;
+    width: 100px;
+  }
+  

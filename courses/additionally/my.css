@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    position: relative;
+}
+.wrap{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    right: 10px;
+    transition: transform 0.5s ease;
+}
+.checkbox-label {
+    cursor: pointer;
+}
+.checkbox {
+    display: none;
+}
+
+.checkbox:checked + .wrap {
+    transform: translateX(-150px);
+}
